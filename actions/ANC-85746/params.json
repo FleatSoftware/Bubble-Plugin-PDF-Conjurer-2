@@ -91,7 +91,7 @@
         "AOY": {
             "caption": "Parse BBCode?",
             "default_val": false,
-            "doc": "Want to parse this column BBCode?",
+            "doc": "If \"Yes\", it will interpret [b]hello[/b] as a bold hello. Search the web to understand what BBCode is. Official is: https://www.bbcode.org/ To help, BBCode is what is outputted by rich text editors.  All standard BBCode tags are supported, except for the video tag. At the site above you will be able to see what are the standard tags.  The style defined in BBCode will override the style defined in the \"Define new style for\" action.  Non-standard tags that are outputted by Bubble's rich text editors are supported as well. The legacy rich text editor from Bubble will work fine. A new one from Bubble uses a different line break scheme, this means line breaks will sometimes disappear, in other words, some \"new line\"s will be \"skipped\" or \"eaten\". This new line problem will not affect the table itself, it will only affect the text content inside the cell.",
             "editor": "DynamicValue",
             "name": "parse_bbcode",
             "rank": 11,

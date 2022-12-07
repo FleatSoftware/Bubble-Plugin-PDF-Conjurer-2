@@ -13,6 +13,7 @@ function(properties, context) {
       margin_top,
       margin_right,
       margin_bottom,
+      counter_style,
     } = properties;
 
     const configs = JSON.parse(prev_configs);
@@ -26,6 +27,7 @@ function(properties, context) {
       startCountOnSecondPage,
       counterMargins: [margin_left, margin_top, margin_right, margin_bottom],
       elements: [],
+      counterStyle: counter_style,
     };
 
     if (use_exclude_pages && exclude_pages_counter) {

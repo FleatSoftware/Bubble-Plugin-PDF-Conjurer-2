@@ -66,6 +66,15 @@
             "name": "font_name",
             "rank": 8,
             "value": "text"
+        },
+        "AOt": {
+            "caption": "Line height",
+            "default_val": 1,
+            "doc": "The space between one line and the line immediately below it. Default is 1, which is the normal space.",
+            "editor": "DynamicValue",
+            "name": "line_height",
+            "rank": 9,
+            "value": "number"
         }
     },
     "return_value": {

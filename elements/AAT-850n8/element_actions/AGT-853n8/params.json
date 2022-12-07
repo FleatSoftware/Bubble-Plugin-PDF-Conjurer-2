@@ -58,7 +58,7 @@
         "AOO": {
             "caption": "Parse BBCode",
             "default_val": false,
-            "doc": "Remember that the style defined in BBCode will override the same style defined in the \"Define new style for\" action",
+            "doc": "If \"Yes\", it will interpret [b]hello[/b] as a bold hello. Search the web to understand what BBCode is. Official is: https://www.bbcode.org/ To help, BBCode is what is outputted by rich text editors.  All standard BBCode tags are supported, except for the video tag. At the site above you will be able to see what are the standard tags.  The style defined in BBCode will override the style defined in the \"Define new style for\" action.  Non-standard tags that are outputted by Bubble's rich text editors are supported as well. The legacy rich text editor from Bubble will work fine. A new one from Bubble uses a different line break scheme, this means line breaks will sometimes disappear, in other words, some \"new line\"s will be \"skipped\" or \"eaten\". This new line problem will not affect the table itself, it will only affect the text content inside the cell. Also, this may be fixed eventually by external forces, but parsing BBCode will throw an error in Apple devices for client side workflow actions due to something that is Apple's fault, so for it to work in Apple devices you must not parse BBCode or use the server side (backend) version of the workflow actions. You can differentiate them because client side uses \"PDF Model X\" in the name, while backend version will not have that suffix. Also, client and server side workflow action versions do not mix.",
             "editor": "DynamicValue",
             "name": "parse_bbcode",
             "rank": 7,

@@ -53,6 +53,7 @@ function(instance, properties, context) {
 					text: startCountingOnSecondPage(currentPage, pageCount),
 					alignment: properties.page_number_alignment,
 					margin: [properties.left_margin, properties.top_margin, properties.right_margin, properties.bottom_margin],
+					style: properties.number_style,
 				}
 
 			} else if (!adjustedArrayOfExcludedNumbersOrNot.includes(currentPage) && properties.start_count_on_second_page === false) {
@@ -61,6 +62,7 @@ function(instance, properties, context) {
 					text: startCountingOnSecondPage(currentPage, pageCount),
 					alignment: properties.page_number_alignment,
 					margin: [properties.left_margin, properties.top_margin, properties.right_margin, properties.bottom_margin],
+					style: properties.number_style,
 				}
 
 			} else {
@@ -69,6 +71,7 @@ function(instance, properties, context) {
 					text: "", // if current page is in the black list defined by app maker, page counter will be an empty string and not appear
 					alignment: properties.page_number_alignment,
 					margin: [properties.left_margin, properties.top_margin, properties.right_margin, properties.bottom_margin],
+					style: properties.number_style,
 				}
 			}
 
@@ -77,6 +80,7 @@ function(instance, properties, context) {
 				text: startCountingOnSecondPage(currentPage, pageCount),
 				alignment: properties.page_number_alignment,
 				margin: [properties.left_margin, properties.top_margin, properties.right_margin, properties.bottom_margin],
+				style: properties.number_style,
 			}
 		}
 

@@ -132,6 +132,15 @@
             "name": "margin_bottom",
             "rank": 16,
             "value": "number"
+        },
+        "AOv": {
+            "caption": "Counter style",
+            "doc": "The text style to be applied to the counter in the footer.",
+            "editor": "DynamicValue",
+            "name": "counter_style",
+            "optional": true,
+            "rank": 17,
+            "value": "text"
         }
     },
     "return_value": {

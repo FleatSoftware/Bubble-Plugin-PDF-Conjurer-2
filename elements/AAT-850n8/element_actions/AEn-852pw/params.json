@@ -117,6 +117,15 @@
             "optional": true,
             "rank": 9,
             "value": "text"
+        },
+        "AOu": {
+            "caption": "Counter style",
+            "doc": "The text style to be applied to the footer counter.",
+            "editor": "DynamicValue",
+            "name": "number_style",
+            "optional": true,
+            "rank": 15,
+            "value": "text"
         }
     }
 }

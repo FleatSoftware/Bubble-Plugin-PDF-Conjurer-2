@@ -12,6 +12,7 @@
         },
         "AIO": {
             "caption": "Text",
+            "doc": "Insert some text in the document. Pro bubbler tip: This is super useful to insert images and to achieve rich styling of texts, and also to use with infinitely nested data by using \":format as text\" operator on lists, check that operator out, there are videos, forum posts and more about it. Also, by infinitely nested I mean that you can use the operator again if you have a list as a field inside your initial list, as in list of stores, and each store has a list of products.",
             "editor": "DynamicValue",
             "long_text": true,
             "name": "text",
@@ -28,7 +29,7 @@
         "AIQ": {
             "caption": "Parse BBCode",
             "default_val": false,
-            "doc": "",
+            "doc": "If \"Yes\", it will interpret [b]hello[/b] as a bold hello. Search the web to understand what BBCode is. Official is: https://www.bbcode.org/ To help, BBCode is what is outputted by rich text editors.  All standard BBCode tags are supported, except for the video tag. At the site above you will be able to see what are the standard tags.  The style defined in BBCode will override the style defined in the \"Define new style for\" action.  Non-standard tags that are outputted by Bubble's rich text editors are supported as well. The legacy rich text editor from Bubble will work fine. A new one from Bubble uses a different line break scheme, this means line breaks will sometimes disappear, in other words, some \"new line\"s will be \"skipped\" or \"eaten\".",
             "editor": "DynamicValue",
             "name": "parse_bbcode",
             "rank": 3,

@@ -164,7 +164,7 @@
             "editor": "Dropdown",
             "name": "alignment",
             "optional": true,
-            "options": "Left,Center,Rigth",
+            "options": "Left,Center,Right",
             "rank": 9
         },
         "AJK": {

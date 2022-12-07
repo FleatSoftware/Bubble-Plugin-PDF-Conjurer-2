@@ -9,6 +9,7 @@ function(properties, context) {
         alignment, 
         font_name: font,
         color,
+        line_height
     } = properties;
 	
     const configs = JSON.parse(prev_configs);
@@ -29,7 +30,8 @@ function(properties, context) {
         bold, 
         italics, 
         alignment: alignment.toLowerCase(), 
-        font 
+        font,
+        line_height 
     };
     
     const configurations = JSON.stringify(configs);

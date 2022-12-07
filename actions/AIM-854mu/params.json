@@ -64,6 +64,20 @@
             "editor": "Label",
             "name": "page_margin_info",
             "rank": 3
+        },
+        "AOw": {
+            "caption": "custom_page_size_width",
+            "editor": "StaticNumber",
+            "name": "custom_page_size_width",
+            "optional": true,
+            "rank": 8
+        },
+        "AOx": {
+            "caption": "custom_page_size_height",
+            "editor": "StaticNumber",
+            "name": "custom_page_size_height",
+            "optional": true,
+            "rank": 9
         }
     },
     "return_value": {

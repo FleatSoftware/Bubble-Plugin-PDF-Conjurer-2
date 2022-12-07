@@ -150,6 +150,8 @@ function(properties, context) {
           			text: currentPage,
                     alignment: (currentPage % 2) ? oddPageAlignment : evenPageAlignment,
                     margin: counterMargins,
+                    style: counterStyle,
+
         		};
                 
                 content.push(counter);

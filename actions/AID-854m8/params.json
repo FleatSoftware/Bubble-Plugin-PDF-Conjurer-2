@@ -44,7 +44,7 @@
             "value": "text"
         },
         "AIC": {
-            "caption": "In order to upload the PDF file, you need to create a backend workflow that receive a file input! From this workflow returns the file URL and other informations that you want",
+            "caption": "In order to upload the PDF file, you need to create a backend workflow that receive a file input! From this workflow returns the file URL and other information that you want",
             "editor": "Label",
             "name": "upload_info",
             "rank": 0
